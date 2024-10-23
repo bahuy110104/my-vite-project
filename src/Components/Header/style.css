@@ -1,0 +1,38 @@
+div.container {
+  position: relative;
+  width: 1299px;
+  height: 400px;
+  margin-left: 120px;
+  
+}
+
+.img-banner {
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+  border-radius: 15px; 
+}
+
+p{
+  margin-top: 10px;
+  width: 571px;
+  height: 81px;
+  color: white;
+  line-height: 2;
+}
+
+.explore{
+  color: white;
+  font-size: 32px;
+}
+
+.header-content{
+  position: absolute;
+  top: 100%;
+  padding-left: 40px;
+}
+
+.suggestion{
+  color: #868686;
+  font-size: 22px;
+}

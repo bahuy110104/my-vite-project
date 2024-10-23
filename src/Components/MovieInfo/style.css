@@ -1,0 +1,12 @@
+.episode{
+    display: flex;
+    width: 170px;
+    justify-content: center;
+}
+
+.movie-name{
+    display: flex;
+    width: 170px;
+    margin-top: -50px;
+    justify-content: center; 
+}

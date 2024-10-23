@@ -1,0 +1,63 @@
+div.Modal{
+    background-color: hsla(0, 0%, 0%, 0.356);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+
+div.Modal div.contentModal {
+    width: 40vw;
+    height: 80vh;
+    background-color: #181a1f ;
+    margin-left: 500px;
+    margin-top: 75px;
+    border-radius: 18px;
+}
+
+div.contentModal div.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 28px 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around  ;
+}
+
+.boruto-img {
+    margin-left: 40px;
+}
+
+div.infomation p{
+    width: fit-content;
+    height: min-content;;
+}
+
+.decription {
+    display: flex;
+    justify-content: center;
+}
+
+.sypnosis {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.btnClose {
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    cursor: pointer; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btnClose:focus {
+    outline: none;
+  }
